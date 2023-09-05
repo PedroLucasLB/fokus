@@ -77,6 +77,7 @@ const contagemRegressiva = () => {
     if(tempoDecorridoEmSegundos <= 0) {
         timesOver.play()
         alert('Tempo finalizado')
+        tempoDecorridoEmSegundos = 1500
         zerar()
         return 
 
